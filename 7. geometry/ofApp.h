@@ -2,15 +2,13 @@
 "GL_LINE_STRIP"などの説明
 	http://openframeworks.cc/documentation/gl/ofVbo/
 	
-	
-	http://openframeworks.cc/documentation/gl/ofShader/#show_setGeometryOutputType
-	
 ofShader
 	http://openframeworks.cc/documentation/gl/ofShader/
 	
 	description
 		setGeometryInputType(...), setGeometryOutputType(...)
 		では、指定可能なtypeに制限がある。
+		http://openframeworks.cc/documentation/gl/ofShader/#show_setGeometryOutputType
 		
 Geometry shader input/output 指定
 	http://miffysora.wikidot.com/geometry-shader
