@@ -31,6 +31,11 @@ mouse位置でdistortionさせる。
 ###geometry
 geometry shaderの動きを研究
 
+###geometry
+geometry shaderの動きをさらに研究。  
+ofVbo x shader:vboには一度に全ての頂点情報を格納するが、shaderは、各primitiveの描画ごとに起動される。
+shader.setGeometryOutputCount( 4 );で指定するのは、1回のgeom:mainでemitするvertex数。  
+
 ##note
 
 
